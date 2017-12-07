@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Geometria';
+  src:
+    url('../fonts/geometria-light.woff') format('woff'),
+    url('../fonts/geometria-light.woff2') format('woff2'),
+    url('../fonts/geometria-light.ttf') format('ttf'),
+    url('../fonts/geometria-light.woff') format('eot');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  src:
+    url('../fonts/geometria-regular.woff') format('woff'),
+    url('../fonts/geometria-regular.woff2') format('woff2'),
+    url('../fonts/geometria-regular.ttf') format('ttf'),
+    url('../fonts/geometria-regular.eot') format('eot');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  src:
+    url('../fonts/geometria-medium.woff') format('woff'),
+    url('../fonts/geometria-medium.woff2') format('woff2'),
+    url('../fonts/geometria-medium.ttf') format('ttf'),
+    url('../fonts/geometria-medium.eot') format('eot');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  src:
+    url('../fonts/geometria-bold.woff') format('woff'),
+    url('../fonts/geometria-bold.woff2') format('woff2'),
+    url('../fonts/geometria-bold.ttf') format('ttf'),
+    url('../fonts/geometria-bold.eot') format('eot');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'PT Rouble Sans';
+	src: url('../fonts/ptroublesans.woff2') format('woff2'),
+		url('../fonts/ptroublesans.woff') format('woff'),
+		url('../fonts/ptroublesans.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+

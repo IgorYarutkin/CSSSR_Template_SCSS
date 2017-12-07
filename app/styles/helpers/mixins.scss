@@ -1,0 +1,69 @@
+// Clear the float on any element.
+@mixin clearfix() {
+	&::after {
+		display: table;
+		clear: both;
+		content: '';
+	}
+}
+
+// Set element size
+@mixin size($width, $height: $width) {
+	width: $width;
+	height: $height;
+}
+
+// Set margin on left & right
+@mixin margin-x($margin) {
+	margin-left: $margin;
+	margin-right: $margin;
+}
+// Set margin on top & bottom
+@mixin margin-y($margin) {
+	margin-top: $margin;
+	margin-bottom: $margin;
+}
+
+// Set pading on left & right
+@mixin padding-x($padding) {
+	padding-left: $padding;
+	padding-right: $padding;
+}
+
+// Set padding on top & bottom
+@mixin padding-y($padding) {
+	padding-top: $padding;
+	padding-bottom: $padding;
+}
+
+	// Mediaquerry mixins
+@mixin from-width($width) {
+	@media (min-width: #{$width}) {
+		@content;
+	}
+}
+@mixin between($min, $max) {
+	@media (min-width: #{$min}) and (max-width: #{$max}) {
+		@content;
+	}
+}
+
+@mixin below($width) {
+	@media (max-width: #{$width}) {
+		@content;
+	}
+}
+
+// Mixins for hidden elements
+@mixin hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
